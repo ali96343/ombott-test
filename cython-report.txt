@@ -1,0 +1,32 @@
+https://github.com/hayate/cython-bottle
+
+(base) [w3p@sun set4]$ cd cython-bottle/
+(base) [w3p@sun cython-bottle]$ ls
+bottle.c  bottle.cpython-39-x86_64-linux-gnu.so  bottle.py  build  LICENSE  README.md  setup.py
+(base) [w3p@sun cython-bottle]$ pwd
+/home/w3p/set4/cython-bottle
+(base) [w3p@sun cython-bottle]$  cp bottle.cpython-39-x86_64-linux-gnu.so ~/set4/py4web/
+
+pip uninstall bottle
+
+------------------------------------------------------------------
+
+(set4) (base) [w3p@sun py4web]$ ./py4web.py run ~/tmp/ombottapps/
+
+Py4web: 1.20210619.1 on Python 3.9.5 (default, Jun  4 2021, 12:28:51)
+[GCC 7.5.0]
+
+
+[X] loaded bulma
+[X] loaded lte3
+[X] loaded volt
+Bottle v0.12.7 server starting up (using TornadoServer())...
+Listening on http://127.0.0.1:8000/
+Hit Ctrl-C to quit.
+
+------------------------------------------------------------------
+duration: 340 seconds.
+
+
+
+
