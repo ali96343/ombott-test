@@ -536,22 +536,22 @@ def error404(error):
 
 
 # -------------------- tabinfo: my backend ------------------------------------
-
-from .atab_utils import mytab_grid
-from .images_utils import ima_grid
-from .upload_utils import p4wupload_file
-from .tlist_utils import tlist 
-
-@unauthenticated("tabinfo", "tabinfo.html")
-def tabinfo():
-    user = auth.get_user()
-    message = T("Hello {first_name}".format(**user) if user else "Hello")
-    menu = DIV(
-               P( "test-demo for sql2table ( SQLTABLE from web2py)"),
-               A( "sql2table", _role="button", _href=URL('mytab_grid', ),) ,
-               A( "p4wupload_file", _role="button", _href=URL('p4wupload_file', ),) ,
-               A( "tlist", _role="button", _href=URL('tlist', ),) ,
-               A( "app_images", _role="button", _href=URL('ima_grid', ),) ,
-              )
-    return dict(message=message, menu=menu)
-
+#
+#from .atab_utils import mytab_grid
+#from .images_utils import ima_grid
+#from .upload_utils import p4wupload_file
+#from .tlist_utils import tlist 
+#
+#@unauthenticated("tabinfo", "tabinfo.html")
+#def tabinfo():
+#    user = auth.get_user()
+#    message = T("Hello {first_name}".format(**user) if user else "Hello")
+#    menu = DIV(
+#               P( "test-demo for sql2table ( SQLTABLE from web2py)"),
+#               A( "sql2table", _role="button", _href=URL('mytab_grid', ),) ,
+#               A( "p4wupload_file", _role="button", _href=URL('p4wupload_file', ),) ,
+#               A( "tlist", _role="button", _href=URL('tlist', ),) ,
+#               A( "app_images", _role="button", _href=URL('ima_grid', ),) ,
+#              )
+#    return dict(message=message, menu=menu)
+#
