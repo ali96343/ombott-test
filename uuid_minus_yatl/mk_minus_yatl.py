@@ -16,7 +16,7 @@ from .settings import SESSION_SECRET_KEY
 from .common import db, session, T, flash, cache, authenticated, unauthenticated, auth
 """
 
-NUMS_CTRL=10000
+NUMS_CTRL=10
 
 from string import Template
 import uuid
