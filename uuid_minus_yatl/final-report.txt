@@ -1,7 +1,0 @@
-
-Ombott duration: 124.66 seconds.  OK_CNT:  20000
-Bottle duration: 213.91 seconds.  OK_CNT:  20000
-
-Ombott duration: 183.89 seconds.  OK_CNT:  30000
-Bottle duration: 387.69 seconds.  OK_CNT:  30000
-

@@ -5,7 +5,7 @@
 #
 
 import os, json, uuid
-from py4web.core import bottle
+import ombott as bottle
 
 from py4web import action, request, response,  abort, redirect, URL, Field
 from py4web.utils.form import Form, FormStyleBulma
